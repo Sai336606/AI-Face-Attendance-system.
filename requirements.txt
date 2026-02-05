@@ -1,0 +1,27 @@
+# Core Web Framework
+streamlit==1.31.0
+
+# Face Detection
+mediapipe==0.10.9
+
+# Face Recognition & Embeddings
+# Note: insightface requires C++ build tools on Windows
+# Using onnxruntime with pre-downloaded models instead
+onnxruntime==1.16.3
+
+# Image Processing
+opencv-python==4.9.0.80
+Pillow==10.2.0
+
+# Numerical Computing
+numpy==1.24.3
+
+# Machine Learning Utilities
+scikit-learn==1.4.0
+
+# Additional utilities
+pandas==2.2.0
+
+# For downloading models
+gdown==5.1.0
+
