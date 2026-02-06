@@ -2,7 +2,7 @@
 streamlit==1.31.0
 
 # Face Detection
-mediapipe==0.10.9
+mediapipe
 
 # Face Recognition & Embeddings
 # Note: insightface requires C++ build tools on Windows
