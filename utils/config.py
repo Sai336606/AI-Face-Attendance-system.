@@ -18,7 +18,7 @@ INSIGHTFACE_MODEL_NAME = "buffalo_l"  # Options: buffalo_l, buffalo_s
 EMBEDDING_DIM = 512
 
 # Matching Configuration
-COSINE_SIMILARITY_THRESHOLD = 0.90  # Increased from 0.65 to prevent false positives
+COSINE_SIMILARITY_THRESHOLD = 0.80  # Increased from 0.65 to prevent false positives
 # 0.75 = Good balance, prevents family member confusion
 # Lower threshold = more lenient matching (more false positives)
 # Higher threshold = stricter matching (more false negatives)
